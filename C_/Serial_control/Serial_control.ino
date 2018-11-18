@@ -1,6 +1,6 @@
 #include <Servo.h>
-int pin_az=7;
-int pin_el=8;
+const int pin_az=7;
+const int pin_el=8;
 const int piezzo = 12;
 
 char Serial_data_in[8];
